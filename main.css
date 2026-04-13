@@ -1,0 +1,79 @@
+body {
+    font-family: monospace;
+    background: var(--bg);
+    color: var(--fontColor);
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+}
+li {
+    list-style: circle;
+}
+.list {
+    list-style: square;
+}
+#msg {
+    font-family: monospace;
+}
+:root {
+    --green: #00FF00;
+    --white: #FFFFFF;
+    --black: #000000;
+}
+/* LIGHT */
+.light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--white);
+}
+/* DARK */
+.dark-theme {
+    --bg: var(--black);
+    --fontColor: var(--green);
+    --btnBg: var(--white);
+    --btnFontColor: var(--black);
+}
+.btn {
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+}
+.btn {
+position: absolute;
+top: 20px;
+left: 250px;
+height: 50px;
+width: 50px;
+border-radius: 50%;
+border: none;
+color: var(--btnFontColor);
+backround-color: var(--btnBG);
+}
+.light-theme {
+    --bg: var(--green);
+    --fontColor: var(--black);
+    --btnBg: var(--black);
+    --btnFontColor: var(--black);
+}
+.btn {
+    position: absolute;
+    top: 20px;
+    left: 250px;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    border: none;
+    color: var(--btnFontColor);
+    background-color: var(--btnBg);
+    cursor: pointer;
+}
+.container {
+    padding: 24px 16px;
+}
+.topo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 420px;
+}
